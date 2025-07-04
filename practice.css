@@ -1,33 +1,30 @@
-#mainTopic{
-    color: blue;
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
 }
-*{
-    text-align: center;
+#iner1{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: red;
+  border-radius: 50%;
 }
-h1,h3,h5{
-    font-style: Georgia;
-}
-p{
-    color: white;
-    background-color: cornflowerblue;
-}
-
-div button{
-    background-color: purple;
-    color: azure;
-}
-button:hover{
+#iner2{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
     background-color: yellow;
-    color: blue;
+    border-radius: 50%;
 }
-
-p:nth-of-type(odd){
-    color: yellow;
-
+#iner3{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: green;
+    border-radius: 50%;
 }
-h1::first-letter{
-    color: red;
-}
-input[type="checkbox"]:checked + label{
-    color: darkgreen;
-}
+    
