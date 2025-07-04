@@ -1,8 +1,37 @@
-h1{
-    color: red;
+#login{
     background-color: aqua;
 }
-h2{
-    color: antiquewhite;
-    background-color: aquamarine;
+.follow{
+    background-color: brown;
+}
+p + h3{
+    text-decoration: underline;
+}
+
+div > input{
+    background-color: yellow;
+}
+
+input[type="text"]{
+    color: green;
+}
+
+input[type="password"]{
+    color: red;
+}
+
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button:active{
+    background-color: hotpink;
+     color: honeydew;
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
 }

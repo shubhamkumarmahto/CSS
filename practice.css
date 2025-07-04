@@ -1,11 +1,33 @@
-h2{
-    color: orange;
+#mainTopic{
+    color: blue;
 }
-button{
-    color: white;
-    background: blue;
+*{
+    text-align: center;
+}
+h1,h3,h5{
+    font-style: Georgia;
 }
 p{
     color: white;
-    background: black;
+    background-color: cornflowerblue;
+}
+
+div button{
+    background-color: purple;
+    color: azure;
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-of-type(odd){
+    color: yellow;
+
+}
+h1::first-letter{
+    color: red;
+}
+input[type="checkbox"]:checked + label{
+    color: darkgreen;
 }
